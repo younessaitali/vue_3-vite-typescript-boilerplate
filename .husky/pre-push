@@ -1,0 +1,4 @@
+#!/bin/sh
+
+pnpm test:unit
+pnpm test:e2e:headless
