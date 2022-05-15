@@ -20,7 +20,8 @@
     "lint:types": "vue-tsc --noEmit",
     "lint:prettier": "prettier --config ./.prettierrc --write --ignore-path .prettierignore \"**/*.+(js|ts|tsx|vue|json|)\" ",
     "test:e2e": "cypress open",
-    "test:unit": "vitest --run",
+    "test:unit": "vitest",
+    "test:unit:ci": "vitest --run",
     "test:e2e:headless": "cypress run",
     "validate": "npm run lint && npm run build"
   },

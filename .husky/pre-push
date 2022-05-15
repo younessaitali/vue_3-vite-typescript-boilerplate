@@ -1,4 +1,4 @@
 #!/bin/sh
 
-pnpm test:unit
+pnpm test:unit:ci
 pnpm test:e2e:headless
