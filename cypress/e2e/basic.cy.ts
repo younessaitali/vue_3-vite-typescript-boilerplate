@@ -1,11 +1,9 @@
 context('Basic', () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit('http://localhost:3000');
   });
 
   it('basic nav', () => {
-    cy.url().should('eq', 'http://localhost:3000/');
-
     cy.contains('[Default Layout]').should('exist');
 
     cy.get('#input')
