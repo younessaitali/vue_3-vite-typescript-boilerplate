@@ -72,7 +72,7 @@
     "vite-plugin-vue-layouts": "^0.7.0",
     "vite-ssg": "^0.20.2",
     "vite-ssg-sitemap": "^0.3.1",
-    "vitest": "^0.19.1",
+    "vitest": "^0.25.7",
     "vue-tsc": "^0.39.0"
   },
   "engines": {
